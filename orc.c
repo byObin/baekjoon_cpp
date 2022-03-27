@@ -25,4 +25,5 @@ main(int argc, char *argv[])
 
         strcpy(buffer, argv[1]);
         printf("%s\n", buffer);
+        printf("%x\n", buffer); //buffer의 주소 출력
 }
